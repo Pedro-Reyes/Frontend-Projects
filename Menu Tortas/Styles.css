@@ -1,0 +1,191 @@
+*{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+@media (min-width: 720px) 
+header {
+    width: 100%;
+}
+
+.header {
+    background-color: #000000;
+    width: 100%;
+    height: 60px;
+    position:fixed;
+    top: 0;
+    left: 0;
+}
+
+.nav {
+    display:flex;
+    justify-content: space-between;
+    gap:20px;
+    height: 60px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration:none;
+        font-size: 16px;
+}
+
+.nav-menu {
+    display:flex;
+    margin-right: 15px;
+    list-style: none;
+}
+
+.nav-menu-item {
+    font-size: 14px;
+    margin: 0 10px;
+    line-height: 60px;
+    text-transform: uppercase;
+}
+
+.nav-menu-link {
+    padding: 6px 10px;
+    border-radius: 3px;
+}
+
+.nav-menu-link:hover {
+    background-color: #3c3b3b;
+    transition: 0.3s;
+}
+
+.logo {
+    display:flex;
+    justify-content:flex-start;
+    align-items: center;
+    font-size: 20px;
+    color: rgb(213, 112, 205);
+}
+
+.nav__name {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 20px;
+    font-size: 24px;
+    font-family: Eras Bold ITC;
+}
+
+.main {
+    width: 100%;
+    height: auto;
+    margin-bottom 60px;
+    background-color: #000000;
+}
+
+.main__image img {
+    width: 100%;
+    height: 950px;
+    margin: 0;
+}
+
+.menu {
+    display:flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.menu__titulo {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.menu__card {
+    display:flex;
+    justify-content: flex-start;
+    border-radius: 14px;
+    width: 45%;
+    height: 350px;
+    background-color: rgb(236, 235, 235);
+    border: 1px solid lightgray;
+}
+
+.picture {
+    border-radius: 8px;
+    background-color: white;
+    width:300px;
+    height: 300px;
+}
+
+.parrafo {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parrafo__nosotros {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    width: 65%;
+    height: 300px;
+    font-size: 22px;
+}
+
+.contact {
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.contact__list {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+}
+
+.atention {
+
+}
+
+.formulario {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+}
+
+.contact__us {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-around;
+    width: 100%;
+    height:auto;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+.footer {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    color: white;
+}
+

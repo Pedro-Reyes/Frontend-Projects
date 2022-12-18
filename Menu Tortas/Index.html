@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en-es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pastelería Dulce Hobby</title>
+    <link rel="stylesheet" href="./Styles.css">
+    <link rel="icon" href="./img/Logo Abril Nuevo.png" type="image.png"/>
+</head>
+<body>
+    <section class="header">                                <!--Menu Superior-->
+        <nav class="nav">
+                <a href="./Index.html" class="logo nav-link">
+                    <img src="./img/cake solo.png" alt="Logo Dulce Hobby" width="75" height="62"/>Pastelería Dulce Hobby</a>
+                <ul class="nav-menu">
+                    <li class="nav-menu-item"><a href="#Menú" class="nav-menu-link nav-link"> Menú </a></li>
+                    <li class="nav-menu-item"><a href="#Nosotros" class="nav-menu-link nav-link"> Nosotros </a></li>
+                    <li class="nav-menu-item"><a href="#Contacto" class="nav-menu-link nav-link"> Contacto </a></li>
+                </ul>
+            </nav>
+    </section>
+    <section class="main">                                                  <!--Sección imagen Portada Bienvenida-->
+        <div class="main__image">
+            <img src="./img/dulces.jpg" alt="portada" class="picture"/>
+        </div>
+    </section>
+        <h2 class="menu__titulo" id="Menú">NUESTRAS TORTAS</h2>
+            <hr>
+    <section class="menu">                                                  <!--Sección del Menú-->
+        <div class="menu__card">
+            <img src="./img/Amy Rose png.png" alt="torta Amy Rose"/>
+        </div>
+
+        <div class="menu__card">
+            <img src="./img/Cake Goku PNG.png" alt="torta Goku">
+        </div>
+
+        <div class="menu__card">
+            <img src="./img/Choco PNG.png" alt="torta Chocolate" />
+        </div>
+
+        <div class="menu__card">
+            <img src="./img/Encanto png.png" alt="torta Encanto">
+        </div>
+
+    </section>
+        <h2 class="menu__titulo" id="Nosotros">NOSOTROS</h2>                <!--Sección Nosotros-->
+    <div class="parrafo">
+        <p class="parrafo__nosotros"> Somos una empresa de gran tradición familiar que por mucho tiempo se ha preocupado por ofrecer los más ricos y variados
+        pasteles, tortas y bollería en general a una clientela que nos ha dado su preferencia.
+        Con 6 locales en pleno funcionamiento en Santiago, nos hemos planteado como objetivo que cada visita sea toda una dulce
+        y memorable experiencia, donde nuestro estilo de atención, grato y amable de parte de nuestro equipo se conjuguen con
+        nuestras deliciosas preparaciones y todo dentro de un ambiente cálido y acogedor. </p>
+    </div>
+        <h2 class="menu__titulo" id="Contactos">CONTACTOS</h2>             <!--Sección Contactos-->
+    <div class="contact">
+        <div class="contact__list">
+            <p class="atention">Horario de Atencion</p>
+            <label for="instagram"><img src="./img/instagram-logo-24.png" alt="instagram" name="instagram" id="instagram">Dulce Hobby</label>
+        </div>
+    </div>
+    <section class="formulario">
+        <form class="contact__us">
+            <label for="nombre">Nombre
+                <input type="text" name="nombre" id="nombre" placeholder="Nombre...">
+            </label>
+
+            <label for="apellido">Apellido
+                <input type="text" name="apellido" id="apellido" placeholder="Apellido...">
+            </label>
+
+            <label for="mail">Email
+                <input type="mail" name="mail" id="mail" placeholder="ejemplo@mail.com...">
+            </label>
+
+            <label for="subject">Asunto
+                <input type="text" name="subject" id="subject" placeholder="....">
+            </label>
+
+            <label for="message">Mensaje
+                <textarea name="message" id="message placeholder="Nombre..."></textarea>
+            </label>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer class="footer"> Copyright <p>Developed by Pedro Reyes O.</p></footer>
+</body>
+</html>
