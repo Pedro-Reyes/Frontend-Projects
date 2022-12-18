@@ -1,0 +1,162 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+@media (min-width: 720px) 
+header {
+    width: 100%;
+}
+
+.header {
+    position:fixed;
+    background-color: #ffffff;
+    width: 100%;
+    height: 120px;
+    top: 0;
+    left: 0;
+}
+
+.nav {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-link {
+    color: rgb(152, 151, 151);
+    text-decoration:none;
+    font-size: 20px;
+    width: 100%;
+}
+
+.nav-menu {
+    display:flex;
+    align-items:center;
+    justify-content: flex-end;
+    margin-right: 15px;
+    list-style: none;
+    font-weight:bold;
+    flex-wrap: wrap;
+}
+
+.nav-menu-item {
+    margin: 0 10px;
+    padding: 30px;
+}
+
+.nav-menu-link {
+    padding: 6px 10px;
+    border-radius: 6px;
+}
+
+.nav-menu-link:hover {
+    background-color: #3958d4;
+    padding: 20px 30px;
+    color: white;
+    transition: 0.4s;
+}
+
+.logo {
+    display:flex;
+    justify-content:flex-start;
+    align-items: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: #2d4dcb;
+    position:relative;
+    left: 130px;
+    height: 120px;
+    width: auto;
+}
+
+.why {
+    width: 100%;
+    height: 500px;
+}
+
+.why__should {
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    image-rendering: ;
+}
+
+.why__should img {
+    width: 15%;
+    height: auto;
+}
+
+.main__container {
+    display:flex;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+    margin-top: 140px;
+}
+
+.main__title {
+    width: 60%;
+}
+
+.title {
+    text-align: left;
+    font-size: 60px;
+    color: #15309e;
+    margin-left: 10%;
+}
+
+.container__img {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    height: 760px;
+}
+
+.formulario {
+    display:flex;
+    position: absolute;
+    border-radius: 6px;
+    background-color: white;
+    left: 10%;
+    bottom: 60px;
+    width: 800px;
+    height: 80px;
+}
+
+.request {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.main__paragraph {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10%;
+    font-size: larger;
+    width: 500px;
+}
+
+.main__icons {
+    display: flex;
+    justify-content: space-around;
+    color: #15309e;
+    font-weight: bold;
+    margin-left: 10%;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+    background-color: #000000;
+    color: white;
+}
