@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokédex</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./app.js"></script>
+  </head>
+  <body class="body">
+    <nav class="title">
+      <h1 class="title--h1">Pokémon Labs</h1>
+    </nav>
+    <div class="container">
+      <div class="pokedex">
+        <img src="./img/pokedex up.png" alt="screen Up" class="pokedex--up"/> <!--Imagen Superior de Colores-->
+        <img src="./img/pokedex screen.png" alt="screen" class="pokedex--screen"/> <!--Imagen Central de la Screen-->
+        <img src="./img/pokebola.png" alt="Pokebola" id="pokeImg" class="pokeImage" width="150px"/> <!--Imagen de los Pokémon-->
+        <input
+          type="text"
+          placeholder="Pokémon"
+          id="pokeName" class="pokedex--pokemon"
+          name="pokeName"
+        />
+        <div class="pokedex--abilities" id="abilities">
+          <p></p>
+        </div>
+      <div class="pokedex--button">
+        <button class="button" onclick="fetchPokemon()">Pokémon</button>
+      </div>
+      </div>
+    </div>
+  </body>
+</html>
